@@ -5,12 +5,17 @@
 }
 body {
     margin: 0;
+    line-height: 1.6rem;
 }
-h1, h2{
+h1, h2, h3, h4 {
     font-family: 'Crimson Text', serif;
     text-align: center;
     margin-block: 25px;
     text-decoration: underline;
+}
+p, li {
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 1.3rem;
 }
 img {
     width: 800px;
@@ -33,11 +38,11 @@ li.main-list{
     list-style-type: square;
     list-style-position: inside;
 }
-li .main-link {
+a.main-link {
     text-decoration: none;
     color: #000;
 }
-li .main-link:hover {
+a.main-link:hover {
     color: blue;
     text-decoration: underline;
 }
@@ -45,11 +50,44 @@ hr {
     display: block;
     margin: 0 auto;
     width: 500px;
+    border-top: 1px solid #000;
 }
 
 /* main page styling end */
 
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.sub-ul {
+    margin-left: 50px;
+    margin-block: 30px;
+}
 li.sub-list-one {
     text-align: left;
     list-style-position: inside;
+    padding: 5px;
+}
+
+.head-text {
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin: 30px auto 0 auto;
+}
+.big-line {
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    margin-block: 20px;
+}
+.footer .back-main {
+    color:#000;
+    text-decoration: none;
+}
+.footer .back-main:hover {
+    color: blue;
+    text-decoration: underline;
 }
