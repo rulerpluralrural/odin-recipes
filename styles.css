@@ -6,6 +6,7 @@
 body {
     margin: 0;
     line-height: 1.6rem;
+    background-color: hsla(41, 41%, 60%, 0.5);
 }
 h1, h2, h3, h4 {
     font-family: 'Crimson Text', serif;
@@ -24,6 +25,9 @@ img {
     object-fit: cover;
     border-radius: 5px;
     border: solid 1px #000;
+}
+.intro-text {
+    font-size: 1.7em;
 }
 .container {
     text-align: center;
@@ -54,13 +58,16 @@ hr {
 }
 
 /* main page styling end */
-
+.sub-img {
+    width: 700px;
+    height: 500px;
+}
 .description {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 10px;
 }
-.sub-ul {
+.sub-list {
     margin-left: 50px;
     margin-block: 30px;
 }
